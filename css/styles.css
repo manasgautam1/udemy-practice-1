@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#title{
+  background-color: #ff4c68;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/*Navbar*/
+.navbar{
+  padding: 0 0 4rem 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold ;
+}
+
+.nav-item{
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+.intro{
+  color: #fff;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/*features*/
+#features{
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 14%;
+  position: relative;
+}
+.feature{
+  margin: 0;
+}
+.feature-box{
+  padding: 4.5%;
+}
+
+.feature h3{
+  font-size: 1.5rem;
+}
+
+.feature-icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+
+/*testimonial section*/
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  margin: 3%;
+  width: 10%;
+}
+.carousel-item{
+  padding: 7% 14%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-image{
+  width: 15%;
+  margin: 3%;
+}
+
+/*Pricing*/
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 990px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 14%;
+  text-align: center; 
+}
+#cta h3{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  
+}
+
+#footer{
+  padding: 7% 14%;
+  text-align: center; 
+}
+
+.icon-footer{
+  padding: 2%;
+  width: 10%;
+}
